@@ -1,6 +1,8 @@
 import json
 import logging
+import os
 import re
+import time
 from pathlib import Path
 
 from summarization.chunking import chunk_transcript
@@ -20,8 +22,11 @@ MD_DIR.mkdir(parents=True, exist_ok=True)
 def _map_chunks(chunks: list[str]) -> str:
     """Summarize each chunk independently, return combined notes."""
     chunk_summaries = []
+    provider = os.getenv("AI_PROVIDER", "gemini").lower()
     for i, chunk in enumerate(chunks, 1):
         logger.info(f"  Summarizing chunk {i}/{len(chunks)}...")
+        if i > 1 and provider == "groq":
+            time.sleep(65)  # stay under 1000 OTPM free tier limit
         prompt = CHUNK_SUMMARY_PROMPT.format(chunk=chunk)
         summary = call_llm(prompt)
         chunk_summaries.append(f"--- Chunk {i} ---\n{summary}")
@@ -124,10 +129,12 @@ def summarize_filing(filing: dict) -> dict | None:
 
 
 def _find_transcript(filing: dict) -> str | None:
-    """Look up transcript path from data/transcripts/ by symbol."""
+    """Look up transcript path from data/transcripts/ by symbol (newest file wins)."""
     symbol = filing.get("nse_symbol") or filing.get("bse_code", "")
     matches = list(Path("data/transcripts").glob(f"{symbol}_*.txt"))
-    return str(matches[0]) if matches else None
+    if not matches:
+        return None
+    return str(max(matches, key=lambda p: p.stat().st_mtime))
 
 
 def run_summarization(filings: list[dict] = None) -> list[dict]:

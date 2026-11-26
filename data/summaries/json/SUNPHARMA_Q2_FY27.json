@@ -6,11 +6,71 @@
   "call_date": "",
   "source": "BSE",
   "source_url": "manual_sunpharma",
-  "tldr": [],
-  "management_commentary": [],
-  "guidance": [],
-  "segment_performance": [],
-  "key_metrics": [],
-  "notable_qa": [],
-  "risks": []
+  "tldr": [
+    "Sales grew 11.8% YoY to INR 161,000 million.",
+    "EBITDA margin declined to 29.3% due to prior year lenalidomide.",
+    "India business grew 17.3% driven by volume and new launches."
+  ],
+  "management_commentary": [
+    "Ilumya US slowdown attributed to market and execution factors.",
+    "Gross margin improved via product mix and currency tailwinds.",
+    "Voluntary recall of 11 ophthalmic products for patient safety."
+  ],
+  "guidance": [
+    "FY27 top-line growth remains high single-digit.",
+    "R&D spend expected to ramp up in second half.",
+    "Ilumya growth expected to normalize after psoriatic arthritis launch."
+  ],
+  "segment_performance": [
+    {
+      "segment": "India",
+      "notes": "17.3% growth, 8.6% market share, volume-driven."
+    },
+    {
+      "segment": "Emerging Markets",
+      "notes": "7.6% constant currency growth, driven by Ilumya."
+    },
+    {
+      "segment": "US",
+      "notes": "Generics grew QoQ; Ilumya slowed, Unloxcyt accelerating."
+    }
+  ],
+  "key_metrics": [
+    {
+      "metric": "Consolidated Sales",
+      "value": "INR 161,000 million",
+      "context": "11.8% YoY growth"
+    },
+    {
+      "metric": "EBITDA",
+      "value": "INR 47,439 million",
+      "context": "4.8% YoY growth"
+    },
+    {
+      "metric": "Adjusted Net Profit",
+      "value": "INR 31,620 million",
+      "context": "Includes exceptional items"
+    }
+  ],
+  "notable_qa": [
+    {
+      "question": "Ilumya slowdown cause?",
+      "answer": "Mix of market factors and execution issues.",
+      "asked_by": "Bino Pathiparampil"
+    },
+    {
+      "question": "Ophthalmic production status?",
+      "answer": "Voluntary recall and temporary cessation for safety.",
+      "asked_by": "Vishal Manchanda"
+    },
+    {
+      "question": "Organon debt cost?",
+      "answer": "Weighted average cost, not just latest issuance.",
+      "asked_by": "Ashutosh Kumar Jha"
+    }
+  ],
+  "risks": [
+    "Ophthalmic product recall and manufacturing cessation.",
+    "Ilumya US growth slowdown and execution challenges."
+  ]
 }

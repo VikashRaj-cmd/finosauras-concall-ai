@@ -7,16 +7,62 @@
   "source": "BSE",
   "source_url": "manual_tatamotors",
   "tldr": [
-    "No key financial metrics were disclosed.",
-    "Management did not provide statements on business performance.",
-    "No forward-looking guidance or targets were presented.",
-    "Details on segment or vertical performance were absent.",
-    "No analyst questions or management answers were noted."
+    "Consolidated revenue up 34% YoY to Rs. 96,000 Cr.",
+    "India volumes hit record 2 lakh units; EV share 43%.",
+    "JLR faces China decline but strong UK and core brand growth."
   ],
-  "management_commentary": [],
-  "guidance": [],
-  "segment_performance": [],
-  "key_metrics": [],
-  "notable_qa": [],
-  "risks": []
+  "management_commentary": [
+    "Commodity costs elevated in Q3, plateauing in Q4.",
+    "EV demand significantly exceeds supply, causing low inventory.",
+    "JLR resetting breakeven volumes to 300,000 units."
+  ],
+  "guidance": [
+    "Net debt to close FY27 around Rs. 47,000 Cr.",
+    "JLR FY27 EBIT expected in 2-3% range.",
+    "Domestic capex to be 6-7% of revenue in FY27."
+  ],
+  "segment_performance": [
+    {
+      "segment": "India",
+      "notes": "Record volumes, 14.3% market share, strong EV leadership."
+    },
+    {
+      "segment": "JLR",
+      "notes": "China down 30%, UK strong, core brands growing."
+    }
+  ],
+  "key_metrics": [
+    {
+      "metric": "Consolidated Revenue",
+      "value": "Rs. 96,000 Cr",
+      "context": "Up 34% YoY"
+    },
+    {
+      "metric": "India Volumes",
+      "value": "2 lakh units",
+      "context": "Highest-ever quarterly volume"
+    },
+    {
+      "metric": "JLR Q2 Sales",
+      "value": "82,000 units",
+      "context": "Flat vs Q1, up YoY"
+    }
+  ],
+  "notable_qa": [
+    {
+      "question": "EV booking percentage?",
+      "answer": "30% of bookings are EVs.",
+      "asked_by": "Kapil"
+    },
+    {
+      "question": "China brand disruption risk?",
+      "answer": "Yes, but luxury brands must stay contemporary.",
+      "asked_by": "Kapil"
+    }
+  ],
+  "risks": [
+    "Elevated commodity costs in Q3.",
+    "China market decline and competitive pressure.",
+    "JLR cash outflows from high investments."
+  ]
 }

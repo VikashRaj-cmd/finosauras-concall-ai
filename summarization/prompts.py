@@ -23,7 +23,8 @@ Quarter: {quarter}
 Extracted notes:
 {chunk_summaries}
 
-Produce a JSON object with EXACTLY this schema. Every claim must come from the notes above — do not hallucinate:
+Produce a JSON object with EXACTLY this schema. Every claim must come from the notes above — do not hallucinate.
+Be CONCISE — max 3 items per array, max 15 words per string:
 
 {{
   "company": "{company}",
@@ -33,19 +34,19 @@ Produce a JSON object with EXACTLY this schema. Every claim must come from the n
   "call_date": "{call_date}",
   "source": "{source}",
   "source_url": "{source_url}",
-  "tldr": ["3 to 5 bullet points summarizing the call"],
-  "management_commentary": ["key highlights from management"],
-  "guidance": ["forward-looking statements and targets"],
+  "tldr": ["bullet 1", "bullet 2", "bullet 3"],
+  "management_commentary": ["highlight 1", "highlight 2"],
+  "guidance": ["guidance 1", "guidance 2"],
   "segment_performance": [
-    {{"segment": "segment name", "notes": "performance details"}}
+    {{"segment": "name", "notes": "brief notes"}}
   ],
   "key_metrics": [
-    {{"metric": "metric name", "value": "value", "context": "brief context"}}
+    {{"metric": "name", "value": "value", "context": "brief"}}
   ],
   "notable_qa": [
-    {{"question": "analyst question", "answer": "management answer", "asked_by": "analyst name or Unknown"}}
+    {{"question": "short question", "answer": "short answer", "asked_by": "name or Unknown"}}
   ],
-  "risks": ["risk or concern mentioned"]
+  "risks": ["risk 1", "risk 2"]
 }}
 
 Return ONLY the JSON object, no markdown fences, no extra text."""

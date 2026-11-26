@@ -1,0 +1,410 @@
+{
+  "company": "HDFC Bank Ltd",
+  "scrip_code": "500180",
+  "nse_symbol": "HDFCBANK",
+  "quarter": "Q2 FY27",
+  "call_date": "",
+  "source": "BSE",
+  "source_url": "manual_hdfcbank",
+  "tldr": [
+    "HDFC Bank reported robust Q2 FY27 performance with strong deposit and asset growth, particularly in retail and MSME segments, and maintained pristine asset quality.",
+    "Net Interest Margins (NIMs) are believed to have bottomed out in Q2 FY27 and are projected to improve from Q3 FY27, driven by the upward rate cycle and increasing proportion of higher-yielding retail and MSME assets.",
+    "The bank is undergoing a leadership transition with Anup Bagchi taking over as MD & CEO, who will soon unveil strategic imperatives focusing on core liability momentum, balance sheet adjustments, and continued market share gains.",
+    "Significant investments in technology and AI are expected to enhance productivity, reduce turnaround times, and drive future growth, with a projected shift in employee composition towards frontline roles.",
+    "Despite strong underlying momentum, the bank faced challenges from large, one-off deposit outflows and structural shifts in household savings behavior, impacting retail deposit proportion and LCR ratios, which management plans to address strategically."
+  ],
+  "management_commentary": [
+    "GDP growth in Q2 FY27 was better than anticipated, reflecting sustained economic momentum with robust retail consumption growth and a supportive policy environment.",
+    "The bank continues to strengthen its liabilities franchise and asset side, delivering balanced growth across personal loans, wheels business, gold, agri, and other MSME segments.",
+    "HDFC Bank recorded the highest ECLGS disbursals (Rs 41,000 crores) across all banks as of August '26, demonstrating leadership in supporting the economy.",
+    "Operational rigor, digital adoption, and straight-through processing have been key focus areas since May '26, leading to reduced turnaround times (10-15% for product delivery, 30% for service delivery) and increased customer engagement.",
+    "Asset quality remains pristine, with industry-leading metrics reflecting top-quartile credit quality choices, contributing to a stable ROA of 1.8%.",
+    "The bank is integrating cutting-edge technologies and AI into its core operations, introducing applications like Edge Security, Kavach, Secure Lock, AI conversational banking, and AI collections bot to enhance customer experience and fraud prevention.",
+    "Sashidhar Jagdishan highlighted the organization's strong platform, resilience in navigating regulatory embargoes, COVID, and the HDFC Limited merger, and its investment in rearchitecting technology from core to AI layer.",
+    "Anup Bagchi expressed gratitude for the trust placed in him as MD and CEO, acknowledging Sashi's impactful 6-year leadership in navigating post-pandemic challenges, completing the merger, scaling the branch network, and strengthening core technology.",
+    "The institution is focused on capturing opportunities with prudence and discipline, building better customer interactions, stepping up new account acquisitions, and enabling one-click product/service delivery.",
+    "Productivity of branches (deposits per branch) continues to be very healthy and probably best-in-class, with encouraging underlying core momentum.",
+    "The balance sheet is extremely large, with good demand across corporate, MSME, and retail segments, and agri gross NPA has held steady with no signs of concern.",
+    "Cost of funds remained flat quarter-to-quarter due to the mix of FCNR deposits and growth in time deposits offsetting repricing.",
+    "Overall growth has been very handsome at 28% year-on-year, supported by ECLGS 5.0, with retail and business banking showing strong momentum.",
+    "The bank maintains a significant presence across corporate lending, approaching it with a good mix of working capital, term, and project finance, while being cognizant of returns.",
+    "Deposit growth and loan growth were largely matched within the quarter, and approximately 70% of the total loan book is floating rate.",
+    "Return on asset (ROA) is very similar and comparable across wholesale and retail segments, achieved through compensating cost and credit cost dynamics.",
+    "Slippages are improving across most portfolios, not due to loan mix, reflecting a benign credit environment.",
+    "The bank sees significant opportunity to gain market share in over 54% of the 765 districts where it operates, where its market share is 2-3 percentage points lower than its average.",
+    "The retail CASA ratio is healthy, in the late 40s, and has been stable over a long period, despite a structural shift in household savings behavior making incremental low-cost CASA accretion smaller in the system.",
+    "Technology investments are on the cusp of being harnessed more, moving out of the investment phase, leading to more straight-through product and service journeys, reduced turnaround times, and increased capacities.",
+    "The bank's liquidity is extremely comfortable, with an LCR of 113%, and CD issuances are part of market opportunities and managing outflows.",
+    "Aggregate PSL achievement is around 50%, but the bank faces scarcity and high costs in meeting targets for small and marginal farmers and weaker sections.",
+    "Kaizad Bharucha, a founding member and key architect of the credit architecture, has requested early retirement by end of December, which is considered a 'big loss' to the institution."
+  ],
+  "guidance": [
+    "The liabilities engine is expected to step up further in the coming days, building on new acquired relationships and deepening existing ones.",
+    "Improvements in operational rigor will have a positive impact on growth, and the underlying momentum in core incremental deposits per branch will start to reflect as the bank moves forward.",
+    "Net interest margins (NIMs), which have borne the brunt of faster repricing of assets and a lag in cost of funds in a down rate cycle, are positioned for a reversal as the bank enters the upward rate cycle.",
+    "NIMs will get further enhanced as the proportion of retail and MSME assets outweighs the proportion of corporate and home loans over a period of time.",
+    "The bank's clear long-term goal is to deliver sustainable long-term value for shareholders, employees, and clients, and it will keep scaling greater heights.",
+    "Anup Bagchi will soon present a perspective on growth, margins, quality, and productivity, and will engage with regulators, customers, shareholders, and other stakeholders to gather insights for organizational priorities.",
+    "Momentum in retail deposits is expected to pick up when extraordinary outflows become smaller, and Anup will unveil his strategy in the next weeks or a couple of months, including minimizing the intake or inflow of corporate liabilities.",
+    "The proportion of retail deposits is expected to become larger and larger with restructuring and alternate non-deposit strategies.",
+    "A change in margins is expected across the next two quarters as volumes in retail and MSME grow, with the 25 basis points rate change in October largely factored into the P&L by December, providing a positive tailwind.",
+    "Net of the full-quarter FCNR impact (which will be an offset), margins can be neutral to positive going forward, with the margin trajectory believed to be at the bottom and expected to be upward from the next quarter onwards, improving from Q3 itself.",
+    "The bank will come back with more vigor on its retail assets and MSME space, taking a calibrated approach to gain a larger market share in certain consumer bank products that offer higher yields, while maintaining its presence across all business segments.",
+    "The bank is confident of continuing to impress upon customers to gain market share in identified opportunity districts.",
+    "Anup and team will unveil structural adjustments to the balance sheet in the near future to ensure continued patronization of core retail deposits and find alternate ways to keep funding requirements to a minimum, which may protect the CASA ratio.",
+    "As adoption of technology and AI overlay mature, the need for capacity in enabler functions (business, operations, credit, corporate) will decrease, leading to an expected mix change in its employee composition, with more people in frontline customer-facing roles and fewer at the back end.",
+    "Head count is projected to remain flat and then start to increase over three to four years.",
+    "Over the next couple of quarters, a strategic thought process will be seen regarding core liability momentum and balance sheet adjustments to ensure healthy LCR coverage, with plans for improving core liability momentum and the LCR glide path to be presented.",
+    "The bank aims to operate its LCR between 110 and 120, preferably around 115, as this level is needed for continued growth.",
+    "The bank will know the full impact of draft insurance norms once the draft settles after comments are due by end of November, and it has levers to work with regarding cost structures if commission rates change."
+  ],
+  "segment_performance": [
+    {
+      "segment": "Deposits",
+      "notes": "Deposits increased 18.8% year-on-year on a reported basis (including a 4 percentage point lift from special FCNR (B) window). CASA grew 10.8% on an overall basis, with retail CASA growth at 11.2% year-on-year (compared to 9% a year ago). The bank added about 1.7 million liability relationships in Q2, which is 25% higher than Q1 and 33% higher than Q4 of last year. Core incremental deposits per branch per day are up 2.3 times from Q1. Deposit growth this quarter was Rs 1.57 trillion, with time deposit growth almost Rs 1.3 trillion. The proportion of retail deposits has come off a bit over the last few quarters due to outflows of large deposits (MSME, government, inherited FCNR(B), erstwhile HDFC Limited deposits) masking underlying retail deposit growth. Approximately 80% of total deposits are branch-driven."
+    },
+    {
+      "segment": "Retail Assets",
+      "notes": "Retail disbursements crossed Rs 90,000 crores during Q2 FY27 (as against Rs 76,000 crores in Q1 of this year). Retail assets ex agri, September'26 annual growth is 11.2% (compared to 9.1% as of June'26 and 7.4% as of March'26). Retail assets led the charge in AUM growth, and the pace of retail disbursements is accelerating. Growth has been balanced across personal loans, the wheels business, gold and agri. New credit card issuances were at 1.4 million, growing by nearly 19% quarter-on-quarter. The retail space grew year-on-year from 7.9-8% to 12%. Retail has 'come back' in the last year and certainly in the last 3 quarters. Most retail products have terms up to 4 years, with 20-30% of the book running off annually. The bank will take a calibrated approach to gain a larger market share in certain consumer bank products that offer higher yields."
+    },
+    {
+      "segment": "MSME & Mid-Market",
+      "notes": "MSME and mid-market business September'26 EOP loan growth has grown 23.5% year-on-year (compared to 17% to 18% year-on-year growth levels seen in the last few quarters). ECLGS disbursals of Rs 41,000 crores were the highest across all banks as of August '26, with the ECLGS 5.0 scheme creating significant opportunities. Growth momentum is improving rapidly in this segment. Business banking, which consists largely of MSME, has grown significantly and is continuing to grow, with the economy and mid MSME segment doing well. The bank will approach this space with more vigor."
+    },
+    {
+      "segment": "Corporate",
+      "notes": "The corporate bank grew 2.8% sequentially this quarter and about 16.4% year-on-year (16.5% to 17% overall). The bank has a significant presence and good footprint across corporate, approaching corporate lending with a good mix of working capital, term, and project finance to build the portfolio and be cognizant of returns."
+    },
+    {
+      "segment": "Agri Book",
+      "notes": "The agri book growth is single-digit. Agri gross NPA remained largely constant from June to September, with no signs of concern or deterioration. Kharif sowing had a marginal decrease of about 1.5% or 2%, with sowing at about 108 or 109 million hectares. The bank faces scarcity and high costs in acquiring loans for small and marginal farmers and weaker sections to meet PSL targets, being short by a few percentage points."
+    },
+    {
+      "segment": "Overall AUM/Loan Growth",
+      "notes": "Total AUM grew 15.3% year-on-year (including a 1.9% impact of FCNR (B) leverage). Overall loan growth was 28% year-on-year, supported by ECLGS 5.0. Loan growth this quarter was Rs 1.58 trillion."
+    }
+  ],
+  "key_metrics": [
+    {
+      "metric": "Deposits increase",
+      "value": "18.8%",
+      "context": "Year-on-year on a reported basis (including a 4 percentage point lift from special FCNR (B) window)."
+    },
+    {
+      "metric": "CASA growth",
+      "value": "10.8%",
+      "context": "On an overall basis."
+    },
+    {
+      "metric": "Retail CASA growth",
+      "value": "11.2%",
+      "context": "Year-on-year (compared to 9% a year ago)."
+    },
+    {
+      "metric": "Total AUM growth",
+      "value": "15.3%",
+      "context": "Year-on-year (including a 1.9% impact of FCNR (B) leverage)."
+    },
+    {
+      "metric": "Retail disbursements",
+      "value": "Rs 90,000 crores",
+      "context": "During Q2 FY27 (as against Rs 76,000 crores in Q1 of this year)."
+    },
+    {
+      "metric": "Retail assets ex agri annual growth (Sep'26)",
+      "value": "11.2%",
+      "context": "(Compared to 9.1% as of June'26 and 7.4% as of March'26)."
+    },
+    {
+      "metric": "New credit card issuances",
+      "value": "1.4 million",
+      "context": "(Grown by nearly 19% quarter-on-quarter)."
+    },
+    {
+      "metric": "MSME & mid-market EOP loan growth (Sep'26)",
+      "value": "23.5%",
+      "context": "Year-on-year (compared to 17% to 18% year-on-year growth levels seen in the last few quarters)."
+    },
+    {
+      "metric": "ECLGS disbursals",
+      "value": "Rs 41,000 crores",
+      "context": "Highest across all banks as of August '26."
+    },
+    {
+      "metric": "GNPA",
+      "value": "1.11%",
+      "context": "(13 basis points lower than year-on-year)."
+    },
+    {
+      "metric": "Credit costs",
+      "value": "44 basis points",
+      "context": "Remain low."
+    },
+    {
+      "metric": "Risk weights to total assets",
+      "value": "69%",
+      "context": ""
+    },
+    {
+      "metric": "ROA",
+      "value": "1.8%",
+      "context": "Maintained in this range for a very long time."
+    },
+    {
+      "metric": "Quarterly PAT",
+      "value": "Rs 19.5 billion",
+      "context": "(A growth of 12.7% approximately if excluding trading gains)."
+    },
+    {
+      "metric": "Savings accounts per branch per day",
+      "value": "Up 19%",
+      "context": "In the last few months (between Q2 and Q1)."
+    },
+    {
+      "metric": "Core incremental deposits per branch per day",
+      "value": "Up 2.3 times",
+      "context": "From Q1."
+    },
+    {
+      "metric": "Daily disbursal run rate (key retail and MSME products)",
+      "value": "Up 10-20%",
+      "context": "Versus the prior quarter."
+    },
+    {
+      "metric": "Distribution",
+      "value": "Doubled",
+      "context": "Over the last 5 years."
+    },
+    {
+      "metric": "Kharif sowing decrease",
+      "value": "1.5-2%",
+      "context": "Marginal decrease."
+    },
+    {
+      "metric": "Crop output variance",
+      "value": "3-5%",
+      "context": ""
+    },
+    {
+      "metric": "Sowing",
+      "value": "108-109 million hectares",
+      "context": "Marginally lower than the previous year."
+    },
+    {
+      "metric": "Agri book growth",
+      "value": "Single-digit",
+      "context": "Not double-digit."
+    },
+    {
+      "metric": "Margins",
+      "value": "3.32%",
+      "context": "Down to this level."
+    },
+    {
+      "metric": "Cost of funds",
+      "value": "4.4%",
+      "context": "Flat quarter-to-quarter."
+    },
+    {
+      "metric": "Deposit growth (this quarter)",
+      "value": "Rs 1.57 trillion",
+      "context": ""
+    },
+    {
+      "metric": "Time deposit growth",
+      "value": "Rs 1.3 trillion",
+      "context": ""
+    },
+    {
+      "metric": "Corporate bank growth (sequential)",
+      "value": "2.8%",
+      "context": "This quarter."
+    },
+    {
+      "metric": "Corporate bank growth (YoY)",
+      "value": "16.4%",
+      "context": ""
+    },
+    {
+      "metric": "Retail space growth (YoY)",
+      "value": "12%",
+      "context": "From 7.9% or 8%."
+    },
+    {
+      "metric": "Overall growth",
+      "value": "28%",
+      "context": "Year-on-year (supported by ECLGS 5.0)."
+    },
+    {
+      "metric": "Corporate growth",
+      "value": "16.5-17%",
+      "context": ""
+    },
+    {
+      "metric": "Loan growth (this quarter)",
+      "value": "Rs 1.58 trillion",
+      "context": ""
+    },
+    {
+      "metric": "Floating rate loan book",
+      "value": "~70%",
+      "context": "Of the total book."
+    },
+    {
+      "metric": "Retail book run-off",
+      "value": "20-30%",
+      "context": "Annually."
+    },
+    {
+      "metric": "Rate change (October)",
+      "value": "25 basis points",
+      "context": "In October."
+    },
+    {
+      "metric": "Cost to assets",
+      "value": "1.73-1.74%",
+      "context": ""
+    },
+    {
+      "metric": "Proportion of book priced to MCLR",
+      "value": "Minuscule, single digit",
+      "context": ""
+    },
+    {
+      "metric": "Retail CASA ratio",
+      "value": "Late 40s",
+      "context": "Healthy and stable."
+    },
+    {
+      "metric": "Borrowing maturities of erstwhile HDFC Limited",
+      "value": "~Rs 2.6 lakh crores",
+      "context": "Nearing maturity."
+    },
+    {
+      "metric": "Market share",
+      "value": "11-12%",
+      "context": "Of the market."
+    },
+    {
+      "metric": "Market share opportunity in over 54% of 765 districts",
+      "value": "2-3 percentage points lower",
+      "context": "Than average market share in those markets."
+    },
+    {
+      "metric": "Head count growth",
+      "value": "10%",
+      "context": "Compounded annual rate of growth over a five- or six-year period."
+    },
+    {
+      "metric": "Productivity",
+      "value": "Single-digit over long period, double-digit recently",
+      "context": ""
+    },
+    {
+      "metric": "LCR ratio",
+      "value": "113%",
+      "context": "Currently (regulatory standard is 100, target operating range 110-120, preferably around 115)."
+    },
+    {
+      "metric": "Branch-driven deposits",
+      "value": "~80%",
+      "context": "Of total deposits."
+    },
+    {
+      "metric": "PSL achievement",
+      "value": "~50%",
+      "context": "Aggregate level."
+    }
+  ],
+  "notable_qa": [
+    {
+      "question": "When do you see the proportion of retail deposits inching up, given it's come off over the last few quarters?",
+      "answer": "Distribution doubled over 5 years and will mature in the next 5. Enabling one-click product/service delivery. Outflow of large deposits this quarter is masking underlying momentum. Expects momentum to pick up when extraordinary outflows decrease. Anup will unveil strategy in a month or two, including minimizing corporate liabilities. Expects retail proportion to become larger with restructuring and non-deposit strategies.",
+      "asked_by": "Mahrukh Adajania (Tara Capital Partners)"
+    },
+    {
+      "question": "Any impact on small business loans or agri/agri-related loans from droughts, given the sizable agri book?",
+      "answer": "Shortfall in monsoon, but kharif sowing largely constant (marginal decrease of 1.5-2%). Agri gross NPA remained constant from June to September, no deterioration. Sowing about 108-109 million hectares. Agri book growth has moderated to single-digit.",
+      "asked_by": "Mahrukh Adajania (Tara Capital Partners)"
+    },
+    {
+      "question": "For Anup, any strategy changes in HDFC Life?",
+      "answer": "In the near term, will engage with stakeholders to gather insights for organizational priorities. Will come back soon on strategic imperatives.",
+      "asked_by": "Mahrukh Adajania (Tara Capital Partners)"
+    },
+    {
+      "question": "Margins are down to 3.32. Why is the impact on NIMs similar to banks with faster corporate growth, despite less substantial sequential corporate book growth? What is driving the sequential uptick in interest expense and cost of funds?",
+      "answer": "Cost of funds flat quarter-to-quarter at 4.4% due to mix of FCNR deposits and 1.3 trillion growth in time deposits offsetting repricing. Relief from AT1 bonds called in August was offset by other borrowings. Corporate bank grew 2.8% sequentially, 16.4% year-on-year. Retail space grown year-on-year from 7.9-8% to 12%. Business banking (MSME) grown significantly. A large amount of the retail back book is playing out, as 20-30% of the retail book runs off annually. Change is expected in the next two quarters with growing retail and MSME volumes.",
+      "asked_by": "Kunal Shah (Citi)"
+    },
+    {
+      "question": "How are FCNR funds deployed, how much will retire wholesale borrowings, and what are the incremental lending/investment yields?",
+      "answer": "FCNR deposits are considered deployed immediately to gain ANBC benefit for PSL purposes. Money is fungible. Overall deposit growth (Rs 1,57,000 crores) and loan growth (Rs 1,58,000 crores) were largely matched in the quarter.",
+      "asked_by": "Rikin Shah"
+    },
+    {
+      "question": "How will margins move next quarter with full-quarter FCNR impact, and what is the loan book split (repo, MCLR, fixed)?",
+      "answer": "The floating rate book is ~70%. The 25 bps rate change in October should be partially factored in by December, providing a positive tailwind. The full-quarter FCNR impact will be an offset. Net, margins can be neutral to positive, and the trajectory is at the bottom, expected to be upward from the next quarter.",
+      "asked_by": "Rikin Shah"
+    },
+    {
+      "question": "Is Q2 the bottom for margins for the bank, similar to other banks, due to the repo rate hike cycle? Will margins start improving from Q3 itself?",
+      "answer": "Yes, by all accounts, Q2 is the bottom. The rate cycle kicked in October, providing a tailwind for repricing 70% floating loans (mostly repo), which should be in by December. Yes, considering the positive factors and full-quarter headwinds from Q2, margins should start improving from Q3 itself.",
+      "asked_by": "Parag Thakkar"
+    },
+    {
+      "question": "Is the trajectory to increase margins by growing higher-yielding segments (business banking, gold loans, personal loans) and calibrating corporate growth, similar to PNB's strategy?",
+      "answer": "It's a more wholesome approach, not just shifting goalposts for small basis point gains, as relationships are valued. The bank confirms a clear move to increase vigor in retail assets and MSME. Certain consumer bank products offer higher yields. The bank will take a calibrated approach to gain market share in these products while maintaining presence across all segments. ROA is comparable across wholesale and retail due to compensating cost and credit cost dynamics.",
+      "asked_by": "Parag Thakkar"
+    },
+    {
+      "question": "Why HDFC Bank cut MCLR more than ICICI and Axis in the last rate cycle, and if this trend would continue in a rate hike cycle?",
+      "answer": "MCLR operates on rate dynamics from the last day of the prior period. It includes a cost component (cost to assets is low at 1.74/1.73) and credit cost. The proportion of the bank's book priced to MCLR is minuscule, single digit.",
+      "asked_by": "Piran Engineer"
+    },
+    {
+      "question": "If improved slippages are due to loan mix changing towards corporate or better outcomes in each cohort.",
+      "answer": "It's not mix; they are seeing better slippages across most portfolios, visible in absolute numbers on Page 19. The credit environment has been benign.",
+      "asked_by": "Piran Engineer"
+    },
+    {
+      "question": "What mistakes or things could have been done differently in the last 3-5 years, and recommendations for Anup? If the industry assumed CASA ratio would return but it hasn't, and if current spreads allow the industry to make ROE above cost of equity, or if repricing is needed.",
+      "answer": "The opportunity for cost of funds through better CASA mix is not capped for HDFC Bank, with significant market share opportunities in over 54% of districts. Anup and team will unveil structural balance sheet adjustments to protect CASA and find affordable funding, and Anup will speak to analysts in about a month. For HDFC Bank, the opportunity for better CASA mix is not capped. Retail CASA ratio is healthy and stable. The system faces a structural shift in household savings behavior, making incremental low-cost CASA accretion smaller.",
+      "asked_by": "Chintan"
+    },
+    {
+      "question": "Given the employee base has been stable for 3 years, what is the trend for the next 2-3 years? Will digitization continue to drive this, or will hiring change?",
+      "answer": "Technology investments are nearing the end of the investment phase. Product/service journeys are becoming more straight-through, increasing capacities. As AI adoption matures, the need for capacity in enabler functions will decrease. The bank expects a mix change in employee composition, with more frontline customer-facing roles and fewer back-end roles, given the massive growth runway (11-12% market share).",
+      "asked_by": "Nitin Aggarwal"
+    },
+    {
+      "question": "Can the bank rely on historical branch productivity metrics for liabilities accretion in a changing market where some banks use rates? What initiatives/levers can accelerate liability growth?",
+      "answer": "Don't focus on a single quarter. Underlying momentum is strong, but one-off outflows led to using non-retail deposits with lower LCR cover, impacting LCR ratios. Liquidity is very comfortable. A strategic plan for core liability momentum and LCR will be presented in the next couple of quarters.",
+      "asked_by": "Nitin Aggarwal"
+    },
+    {
+      "question": "Will the 113% LCR constrain incremental loan growth if deposit mobilization remains weak? Why is the bank active in the CD market post FCNR, given CDs are LCR positive? What is the impact of draft insurance norms on bancassurance income? What is being done to address the widening shortfall in PSL for small and marginal farmers (SMF)?",
+      "answer": "Yes, maintaining LCR at the target 110-120 range (around 115) is necessary for growth. CD issuances are opportunistic to manage market opportunities and outflows. Draft insurance norms are still in draft form; the cut in commission rates is high, but other factors like persistency, lower cost of insurance leading to higher volumes, and cost structure adjustments need to be considered. Aggregate PSL is okay at 50%, but the bank struggles with the scarcity and high cost of small and marginal farmer loans, being short by a few percentage points.",
+      "asked_by": "Ankit Bihani"
+    }
+  ],
+  "risks": [
+    "A lot of citizens in the country are being subjected to digital frauds.",
+    "Extraordinary one-off outflows may mask the underlying momentum in core incremental deposits per branch.",
+    "Net interest margins have borne the brunt of faster repricing of assets and a lag in cost of funds in a down rate cycle.",
+    "Shortfall in the monsoon.",
+    "Outflow of some large deposits (MSME, government, inherited FCNR(B), erstwhile HDFC Limited deposits) is masking retail deposit growth.",
+    "Cost of funds did not lower as expected due to the mix of FCNR deposits.",
+    "The full-quarter impact of FCNR was mentioned as an 'offset' or 'headwind' to margins.",
+    "The incremental accretion to low-cost current and savings accounts in the system is becoming smaller due to a structural shift in household savings behavior.",
+    "Without structural adjustments, the system might be stretched, necessitating taking on high-cost liabilities.",
+    "Technology investments are expected to be 'extremely intense and large' going forward.",
+    "The LCR and CD ratios have 'still not moved in the right direction' despite FCNR deposit benefits.",
+    "Large, one-off outflows (some planned, some unplanned) necessitated using non-retail deposits with lesser LCR cover, preventing commensurate LCR improvement and impacting LCR ratios.",
+    "The current LCR of 113% could become a 'constraint on incremental loan growth' if deposit mobilization remains weak.",
+    "The 'cut down in the commission rates is quite high' in the draft insurance norms, with a 'pretty strong, pretty high impact' in its current form.",
+    "The 'shortfall has widened' on the Small and Marginal Farmer (SMF) side for PSL.",
+    "Small and marginal farmer loans are 'very scarce,' 'not available,' and their 'cost is high' for meeting PSL targets.",
+    "Kaizad Bharucha, a founding member and key architect of the credit architecture, handling the asset side of the balance sheet, has requested early retirement by end of December, which is considered a 'big loss' to the institution."
+  ]
+}

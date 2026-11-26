@@ -55,7 +55,10 @@ export default function Dashboard() {
               <CompanyCard
                 key={i}
                 summary={s}
-                onClick={() => navigate(`/summary/${s.nse_symbol}`)}
+                onClick={() => {
+                  const sym = s.nse_symbol || s.company.split(' ')[0].toUpperCase()
+                  navigate(`/summary/${sym}`)
+                }}
               />
             ))}
           </div>

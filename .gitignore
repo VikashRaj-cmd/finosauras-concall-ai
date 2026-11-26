@@ -17,8 +17,12 @@ dist/
 build/
 
 # Data (raw PDFs and transcripts — too large for git)
-data/pdfs/
-data/transcripts/
+data/pdfs/*
+data/transcripts/*
+
+# But keep the folder markers
+!data/pdfs/.gitkeep
+!data/transcripts/.gitkeep
 
 # Keep sample outputs
 !data/summaries/

@@ -36,7 +36,14 @@ def _get_session() -> requests.Session:
     session = requests.Session()
     session.headers.update(NSE_HEADERS)
     try:
+        # Hit homepage first to get cookies
         session.get(NSE_BASE, timeout=15)
+        time.sleep(2)
+        # Hit the announcements page to get additional cookies
+        session.get(
+            f"{NSE_BASE}/companies-listing/corporate-filings-announcements",
+            timeout=15
+        )
         time.sleep(1)
     except Exception as e:
         logger.warning(f"NSE session init warning: {e}")
@@ -56,7 +63,7 @@ def fetch_nse_announcements(symbol: str, session: requests.Session = None) -> li
     if session is None:
         session = _get_session()
 
-    url = f"{NSE_BASE}/api/corp-info?symbol={symbol}&corpType=announcements&market=equities"
+    url = f"{NSE_BASE}/api/corp-announcements?index=equities&symbol={symbol}"
     results = []
 
     try:

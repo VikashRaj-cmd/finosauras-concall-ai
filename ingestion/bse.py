@@ -31,7 +31,7 @@ BSE_HEADERS = {
     "Connection": "keep-alive",
 }
 
-BSE_BASE = "https://www.bseindia.com"
+BSE_BASE = "https://api.bseindia.com"
 BSE_PDF_BASE = "https://www.bseindia.com/xml-data/corpfiling/AttachLive"
 
 
@@ -46,8 +46,8 @@ def fetch_bse_announcements(scrip_code: str) -> list[dict]:
     Returns list of dicts with keys: company, nse_symbol, bse_code, subject, pdf_url, date, source.
     """
     url = (
-        f"{BSE_BASE}/data/xml/announces.aspx"
-        f"?scrip_cd={scrip_code}&Category=&subcategory=-1&announcetype=0"
+        f"{BSE_BASE}/BseIndiaAPI/api/AnnSubCategoryGetData/w"
+        f"?strCat=-1&strPrevDate=&strScrip={scrip_code}&strSearch=P&strToDate=&strType=C&subcategory=-1"
     )
     results = []
 

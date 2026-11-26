@@ -9,6 +9,9 @@ __pycache__/
 .venv/
 venv/
 env/
+
+# Database (local only)
+data/filings.db
 *.egg-info/
 dist/
 build/

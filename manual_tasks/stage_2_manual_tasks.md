@@ -2,67 +2,93 @@
 
 ---
 
-## Step 1: Activate your virtual environment
-
-```bash
-venv\Scripts\activate
-```
-
----
-
-## Step 2: Test the ingestion pipeline
+## Step 1: Re-run the pipeline with fixed API endpoints
 
 ```bash
 python -m ingestion.pipeline
 ```
 
-### What to expect:
-- It will try to fetch announcements from NSE and BSE for: RELIANCE, HDFCBANK, TATAMOTORS, SUNPHARMA, INFY
-- NSE/BSE may return 0 results if no new concall filings exist right now — that is NORMAL
-- If PDFs are found, they will be saved in `data/pdfs/`
-- A SQLite database will be created at `data/filings.db`
-
-### If you see errors like "Connection refused" or "403 Forbidden":
-- NSE/BSE block automated requests sometimes — this is expected
-- The pipeline has retry logic built in
-- We will handle this with manual PDF uploads in Stage 3
+NSE/BSE may still return 0 results — that is fine. The APIs block bots aggressively.
+The important thing is no crash and `data/filings.db` exists.
 
 ---
 
-## Step 3: Manually download sample PDFs (IMPORTANT)
+## Step 2: Manually download 3 real concall PDFs (REQUIRED)
 
-Since NSE/BSE may block automated downloads, we need at least 3 real concall PDFs to test the full pipeline.
+You MUST have at least 3 real PDFs in `data/pdfs/` before Stage 3.
 
-Download these PDFs manually from BSE:
+### Option A — Download from BSE website (easiest)
 
-### How to find concall PDFs on BSE:
 1. Go to: https://www.bseindia.com/corporates/ann.html
-2. In "Scrip Code" enter: `500325` (Reliance)
-3. In "Category" select: "Analyst / Institutional Investor Meet"
-4. Click Search
-5. Find a result with "Transcript" or "Concall" in the subject
-6. Download the PDF attachment
-7. Save it as: `data/pdfs/RELIANCE_manual.pdf`
+2. Enter scrip code and select category as shown below:
 
-Repeat for:
-- HDFC Bank (scrip code: `500180`) → save as `data/pdfs/HDFCBANK_manual.pdf`
-- Infosys (scrip code: `500209`) → save as `data/pdfs/INFY_manual.pdf`
+| Company | Scrip Code | What to search |
+|---|---|---|
+| Reliance Industries | 500325 | Category: "Analyst / Institutional Investor Meet" |
+| HDFC Bank | 500180 | Category: "Analyst / Institutional Investor Meet" |
+| Infosys | 500209 | Category: "Analyst / Institutional Investor Meet" |
 
-### Alternative — NSE:
+3. Click Search → find a result with "Transcript" or "Concall" in the subject
+4. Click the PDF icon to download
+5. Save files as:
+   - `data/pdfs/RELIANCE_manual.pdf`
+   - `data/pdfs/HDFCBANK_manual.pdf`
+   - `data/pdfs/INFY_manual.pdf`
+
+### Option B — Download from NSE website
+
 1. Go to: https://www.nseindia.com/companies-listing/corporate-filings-announcements
-2. Search by symbol (e.g. RELIANCE)
-3. Filter by "Analyst/Institutional Investor Meet"
-4. Download the PDF
+2. In "Symbol" type: RELIANCE → press Enter
+3. In "Category" select: "Analyst/Institutional Investor Meet"
+4. Find a PDF with "transcript" in the name → download it
+5. Repeat for HDFCBANK and INFY
+
+### Option C — Direct BSE search links (fastest)
+
+Open these URLs directly in your browser:
+
+- Reliance: https://www.bseindia.com/corporates/ann.html?scrip=500325&Category=41
+- HDFC Bank: https://www.bseindia.com/corporates/ann.html?scrip=500180&Category=41
+- Infosys: https://www.bseindia.com/corporates/ann.html?scrip=500209&Category=41
 
 ---
 
-## Step 4: Verify database was created
+## Step 3: Register the manually downloaded PDFs in the database
+
+After saving the PDFs, run this one-time script to register them:
 
 ```bash
-dir data\
+python -c "
+from ingestion.database import init_db, save_filing
+init_db()
+
+filings = [
+    {'company': 'Reliance Industries Ltd', 'nse_symbol': 'RELIANCE', 'bse_code': '500325', 'source': 'BSE', 'pdf_url': 'manual', 'quarter': ''},
+    {'company': 'HDFC Bank Ltd', 'nse_symbol': 'HDFCBANK', 'bse_code': '500180', 'source': 'BSE', 'pdf_url': 'manual_hdfc', 'quarter': ''},
+    {'company': 'Infosys Ltd', 'nse_symbol': 'INFY', 'bse_code': '500209', 'source': 'BSE', 'pdf_url': 'manual_infy', 'quarter': ''},
+]
+
+paths = [
+    'data/pdfs/RELIANCE_manual.pdf',
+    'data/pdfs/HDFCBANK_manual.pdf',
+    'data/pdfs/INFY_manual.pdf',
+]
+
+for filing, path in zip(filings, paths):
+    save_filing(filing, pdf_path=path, status='downloaded')
+    print(f'Registered: {filing[\"company\"]}')
+"
 ```
 
-You should see `filings.db` in the `data/` folder.
+---
+
+## Step 4: Verify
+
+```bash
+python -c "from ingestion.database import get_all_filings; [print(f['company'], f['pdf_path']) for f in get_all_filings()]"
+```
+
+You should see 3 companies listed with their PDF paths.
 
 ---
 
@@ -82,4 +108,4 @@ git push origin main
 
 ---
 
-Once done (even if NSE/BSE returned 0 results — as long as you have 3 manual PDFs in `data/pdfs/`), reply: **"Stage 2 done"**
+Once you have 3 PDFs in `data/pdfs/` and the commit is pushed, reply: **"Stage 2 done"**
